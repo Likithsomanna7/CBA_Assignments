@@ -26,3 +26,6 @@ let a=5;
 let b=10;
 if(a===b) console.log("True");
 else console.log("False");
+if(a&&b)console.log("True");
+if(a||b)console.log("Flase");
+if(!a) console.log("false")
