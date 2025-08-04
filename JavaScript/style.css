@@ -1,0 +1,16 @@
+.div1
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+    border: 10px solid rgb(225, 154, 95);
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 220, 198);
+    height: 98vh;
+}
