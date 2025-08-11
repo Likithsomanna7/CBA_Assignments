@@ -33,7 +33,7 @@ class person
 {
     constructor (message)
     {
-        console.log("Inside the constructer"+" " +message)
+        console.log("Inside the constructor"+" " +message)
     }
     sleep()
     {
@@ -51,8 +51,12 @@ class student extends person
     constructor(message)
     {
         super(message);
-        console.log("Inside the constructer2")
+        console.log("Inside the constructor2")
         super.eat();
+    }
+    eat()
+    {
+        console.log("overriding")
     }
     work()
     {
@@ -67,4 +71,4 @@ class student extends person
 let o=new student("hi parent")
 o.work();
 o.study();
-
+o.eat();
